@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Lombardi Project</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js">
+  <link rel="stylesheet" type="text/css" href="The Lombardi Project.css">
+    <!--  JQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+    <script src="./main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!-- Icons (dead game lol)-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="./assets/icons/site.webmanifest">
+    
+</head>
+<body>
+
+<div class="fullscreen-bg">
+  <video loop muted autoplay class="fullscreen-bg__video">
+    <source src="./assets/images/video.mp4" type="video/mp4">
+  </video>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">The Lombardi Project</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#" id="navbaritem">Contributors</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Matchups
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Fox.html">
+          Fox</a>
+          <a class="dropdown-item" href="Falco.html">
+          Falco</a>
+          <a class="dropdown-item" href="Marth.html">
+          Marth</a>
+          <a class="dropdown-item" href="#">
+          Sheik</a>
+          <a class="dropdown-item" href="Peach.html">
+          Peach</a>
+          <a class="dropdown-item" href="#">
+          Jigglypuff</a>
+          <a class="dropdown-item" href="Captain Falcon.html">
+          Captain Falcon</a>
+          <a class="dropdown-item" href="#">
+          Samus</a>
+          <a class="dropdown-item" href="#">
+          Luigi</a>
+          <a class="dropdown-item" href="#">
+          Ice Climbers</a>        
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Savestates.html" id="navbaritem">How to Use Savestates</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+  <div class="row">
+    <div class="jumbotron">
+      <div class="display-3">
+        <h2>What is the Lombardi Project?</h2>
+      </div>
+        <div class="jumboheading-body">
+          <h6 class="tidbit"></h6>
+          <hr>
+          <h5 class="threerules"></h5>
+          <p class="matchups">An important aspect to improving in Melee is pattern recognition. Players who are prepared for a scenario and understand the better options and counterplay to those options are going to come out on top more often than the players who are experiencing that situation for the first time.
+          </p>
+          <p class="matchups">20XX is a tool that lets us record inputs, play them back, and test out different options available in a given situation. With so many different scenarios for so many different matchups to keep track of, I had trouble organizing those scenarios and referring back to them without recreating the recordings from scratch in 20XX.</p>
+          <p class="matchups">The Lombardi Project was built to house the many different scenarios that Falco can find himself in. Each matchup has its own page that consists of the following:</p>
+          <ul class="whatisTLP">
+            <li>3 rules for the matchup you can remind yourself of before a set</li>
+            <li>Clips of common scenarios Falco could encounter in that matchup</li>
+            <li>Clips that show a handful of options Falco can use as counterplay in that scenario accompanied by notes</li>
+            <li>A downloadable savestate file that can be loaded into your emulator with a 20XX 4.07++ ISO and opens to a playback of that scenario so you can practice the counterplay options</li>
+          </ul>
+          <p class="matchups">The Lombardi Project is a work in progress and is constantly being updated. New scenarios are always being created and matchup notes revisted. Feel free to message any of the site contributors with any suggestions!</p>
+          <p>DISCLAIMER: No option in Melee is always the absolute correct choice in any given situation. If and when you see a note or piece of advice on any of the matchup pages that declares an option as really strong, the author operates under the assumption that there isn't a need to address every single slight variation in the scenario that would make the option a bad choice. The rules and counterplay notes provided are meant to be a starting point for you to begin to think about a matchup rather than act as a rigid set of do's and dont's.</p>
+        </div>
+    </div>
+  </div>
+
+<div class="jumbotron home" id="characterjumbotron">
+  <h1 class="display-4"></h1>
+  <p class="lead"></p>
+  <p class="place"></p>
+  </p>
+</div>
+
+<hr>
+
+</body>
+</html>
