@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Lombardi Project</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js">
+  <link rel="stylesheet" type="text/css" href="The Lombardi Project.css">
+   <!--  JQuery -->
+   <script src="https://code.jquery.com/jquery-3.5.1.js"
+   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+   crossorigin="anonymous"></script>
+   <!-- JavaScript -->
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+   <script src="./main.js"></script> 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <!-- Icons (dead game lol)-->
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="./assets/icons/site.webmanifest">
+</head>
+
+<body>
+
+  <div class="fullscreen-bg">
+    <video loop muted autoplay class="fullscreen-bg__video">
+      <source src="./assets/images/video.mp4" type="video/mp4">
+    </video>
+  </div>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <a class="navbar-brand" href="index.html">The Lombardi Project</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#" id="navbaritem">Contributors</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Matchups
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Fox.html">
+          Fox</a>
+          <a class="dropdown-item" href="Falco.html">
+          Falco</a>
+          <a class="dropdown-item" href="Marth.html">
+          Marth</a>
+          <a class="dropdown-item" href="#">
+          Sheik</a>
+          <a class="dropdown-item" href="Peach.html">
+          Peach</a>
+          <a class="dropdown-item" href="#">
+          Jigglypuff</a>
+          <a class="dropdown-item" href="Captain Falcon.html">
+          Captain Falcon</a>
+          <a class="dropdown-item" href="#">
+          Samus</a>
+          <a class="dropdown-item" href="#">
+          Luigi</a>
+          <a class="dropdown-item" href="#">
+          Ice Climbers</a>        
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Savestates.html" id="navbaritem">How to Use Savestates</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="jumbotron" id="characterjumbotron">
+      <div class="media">
+        <img src="https://www.ssbwiki.com/images/b/b2/Fox_Palette_%28SSBM%29.png" class="palette" alt="...">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="jumbotron">
+      <div class="display-3">
+        <h2>Fox</h2>
+      </div>
+        <div class="jumboheading-body">
+          <h6 class="tidbit">The Fullhop Factory</h6>
+          <hr>
+          <h5 class="threerules">3 Rules for the Matchup<h5>
+          <p class="matchups">
+          <br>1. You won't get many openings from approaching immediately after a laser since Fox has too many good take laser options. If you are going to try to convert immdiately after a laser, do so after a laser from from a plat. Grounded SHL lasers are more for protecting yourself and gaining you control. 
+          <br>2. Take note of how the Fox is responding to lasers. Are they immediately fullhoppping after laser stun? Are they upsmashing? Turn around uptilt? Figure out the Fox's tendecies out of laser stun and position yourself after your laser to counter.
+          <br>3. Get your easy 40% and prioritize getting them offstage. You don't always need to get combo video material, spacies always have a chance of dying when they're put offstage.</p>
+        </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="card-deck">
+
+    <!-- Scenario #1 -->
+    <div class="card mx-auto" id="lesson">
+      <div class="card-body">
+        <h4 class="card-title">SDIing Thunder's Combo</h4>
+        <p class="card-text">Letting Fox convert into a grab or upsmash after he shines is giving away free damage. Getting knocked down by an aerial shine and getting jab reset shouldn't have to happen if you're ready for it.</p>
+        <video class="clips" width="940" height="510" controls>
+          <source src="https://thumbs.gfycat.com/IlliterateSharpHammerheadshark-mobile.mp4" type="video/mp4">
+        </video>
+        <div class="counterplay">
+          <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapse1" aria-expanded="false" aria-controls="collapse1">Counterplay</a>
+
+<!-- Savestate Download Link -->
+             <a href="https://drive.google.com/file/d/1QNTueXg1DMzO6IARnVVSOONN14IMJ_2Q/view?usp=sharing" target="_blank">
+             <button id="savestate">20XX Savestate</button></a>
+             
+<!-- Counterplay Button -->
+          <div class="collapse" id="collapse1">
+            <div class="counterplay row" id="counterplayrow">
+                <div class="col-5" id="counterplaytext"><span><p>Once you've been hit by an aerial and Fox chooses to shine after, you can react to being knocked down and SDI up to pop out of the jab and get your own opening. Depending on what the Fox is choosing after the jab reset, different options you choose can be better or worse. Try to avoid panic spotdodging after you SDI since its timing is about the same as getting jab reset.</p></span>
+                </div>  
+                <div class="col-1">
+                </div>                
+                <div class="col-6"><video class="counterplayclips" width="578" height="306" controls>
+                    <source src="https://thumbs.gfycat.com/DeepWhirlwindAnnelid-mobile.mp4" type="video/mp4">
+                </video>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <hr>
+
+
+
+
+</body>
+</html>

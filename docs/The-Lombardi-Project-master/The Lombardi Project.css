@@ -1,0 +1,566 @@
+body {
+	background: #515961;
+	padding-top: 4rem;
+
+}
+
+
+#navbaritem {
+	color: white;
+}
+
+#navbarDropdown {
+	color: white;
+}
+
+.buffer {
+	margin-top: 30px;
+}
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 75px;
+	background-image: url('./assets/images/rsz_2tumblr_nvzl10sg5g1ufeyv7o1_1280.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #190d53;
+}
+.navbar-brand {
+	font-family: Lato;
+}
+
+.dropdown-item {
+	font-family: Lato;
+	color: white;
+}
+
+.dropdown-menu {
+	background: #190d53;
+	color: white;
+	border: white solid 2px;
+}
+
+#characterjumbotron {
+	margin-top: 2rem;
+}
+.jumbotron {
+	margin-left: 20%;
+	margin-left: 20%;
+	margin-top: 2%;
+	background: darkgrey;
+	border: #190d53 solid 2px;
+	margin: auto;
+	width: 50%;
+	height: 50%;
+	background-size: cover;
+	background-position: center;
+	align-self: center;
+	margin-top: 1rem;
+}
+
+.BeforeTLP {
+	margin-left: 11rem;
+	font: black;
+}
+
+.whatisTLP {
+	font-weight: 1000;
+}
+.AfterTLP {
+	margin-right: 11rem;
+	font: black;
+}
+.palette {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.jumboheading {
+	margin-top: 0;
+}
+
+.jumboheading-heading {
+	align-self: center;
+
+}
+
+
+.tidbit {
+	text-align: center;
+	font-family: Lato;
+	font-style: italic;
+	font-weight: bold;
+}
+h5 {
+	text-indent: 2rem;
+}
+
+.threerules{
+	font-weight: bolder;
+	margin-top: 2rem;
+}
+h6 {
+	font-weight: bolder;
+}
+
+.matchups {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.display-3 {
+	text-align: center;
+	font-weight: bolder;
+	
+}
+.jumboheading-body {
+	text-indent: 1rem;
+	font-family: Lato;
+}
+.media-body {
+	align-self: end;
+}
+.palette {
+	width: 100%;
+}
+
+.banner {
+	width: 100%;
+	height: 100%;
+}
+
+.lead {
+	color: white;
+	text-align: center;
+	font-family: Lato;
+}
+
+.place {
+	color: white;
+	text-align: center;
+	font-family: Lato;
+	margin-top: 40px;
+	margin-bottom: 5%;
+}
+
+li {
+	font-family: Lato;
+}
+.display-4	{
+	margin: 10px;
+	text-align: center;
+	padding-top: 10%;
+	color: #f7f7f7;
+	font-family: Lato;
+}
+
+hr	{
+	margin-left: 1rem;
+	margin-right: 1rem;
+    padding: 0;
+    border-top: medium double #190d53;
+    color: #190d53;
+    text-align: center;
+}
+.card-deck {
+	align-items: center;
+	padding-left: 10rem;
+	padding-right: 10rem;
+	max-width: 100%;
+}
+.card {
+	background-color: darkgrey;
+	min-width: 75%;
+	border: solid 2px #190d53;
+	margin-left: 3rem;
+	margin-right: 3rem;
+	margin: 0 auto;
+
+}
+
+#lesson {
+	margin-bottom: 2rem;
+	border: 2px solid #190d53;
+}
+
+.clips {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	align-items: center;
+	height: auto;
+	width: 100%;
+	max-width: 1000px;
+}
+
+.counterplay {
+	max-width: auto 0;
+	margin-top: 1rem;
+}
+
+.counterplayclips{
+	padding-left: 1rem;
+	padding-right: 1rem;
+	align-items: right;
+	float: right;
+	margin-bottom: 2rem;
+	position: relative;
+}
+
+#counterplaytext {
+	overflow: auto;
+}
+
+col {
+
+}
+.card-titles {
+	text-align: center;
+	margin-top: 0.5rem;
+	font-family: Lota;
+}
+
+.card-body {
+	text-indent: 1rem;
+	align-content: center;
+	max-width: 66%;
+}
+
+.card-text {
+	color: black;
+	font-family: Lato;
+}
+
+.video {
+	margin-top: 0;
+}
+
+span {
+	float: left;
+	vertical-align: top;
+	display: inline;
+	position: absolute;
+}
+
+
+h4	{
+	color: black;
+	font-family: Lato;
+	
+}
+
+.btn-primary {
+	text-indent: -0.1rem;
+}
+
+/* Video BG CSS */
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    max-width:100%;
+    height:auto;
+  }
+
+  .fullscreen-bg__video {
+    filter: blur(8px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (min-aspect-ratio: 16/9) {
+    .fullscreen-bg__video {
+      height: 300%;
+      top: -100%;
+    }
+  }
+
+  @media (max-aspect-ratio: 16/9) {
+    .fullscreen-bg__video {
+      width: 300%;
+      left: -100%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .fullscreen-bg__video {
+      width:auto;
+      height: 100%;
+    }
+  }body {
+	background: #515961;
+	padding-top: 4rem;
+}
+ #counterplayrow {
+ 	border: 2px solid #190d53;
+
+ }
+
+
+.buffer {
+	margin-top: 30px;
+}
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 75px;
+	background-image: url('./assets/images/rsz_2tumblr_nvzl10sg5g1ufeyv7o1_1280.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: 
+}
+.navbar-brand {
+	font-family: Lato;
+}
+
+.dropdown-item {
+	font-family: Lato;
+	color: white;
+}
+
+#savestate {
+	background-color: #190d53;
+	color: white;
+}
+#characterjumbotron {
+	margin-top: 2rem;
+}
+.jumbotron {
+	margin-left: 20%;
+	margin-left: 20%;
+	margin-top: 2%;
+	background: darkgrey;
+	border: #190d53 solid 2px;
+	margin: auto;
+	width: 50%;
+	height: 50%;
+	background-size: cover;
+	background-position: center;
+	align-self: center;
+	margin-top: 1rem;
+}
+
+.palette {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.jumboheading {
+	margin-top: 0;
+}
+
+.jumboheading-heading {
+	align-self: center;
+
+}
+
+.tidbit {
+	text-align: center;
+	font-family: Lato;
+	font-style: italic;
+	font-weight: bold;
+}
+h5 {
+	text-indent: 2rem;
+}
+
+.threerules{
+	font-weight: bolder;
+}
+h6 {
+	font-weight: bolder;
+}
+
+.matchups {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.display-3 {
+	text-align: center;
+	font-weight: bolder;
+	
+}
+.jumboheading-body {
+	text-indent: 1rem;
+	font-family: Lato;
+}
+.media-body {
+	align-self: end;
+}
+.palette {
+	width: 100%;
+}
+
+.home {
+	background-image: url('./assets/images/Muscle Falco.png');
+	height: 37rem;
+	width: 105rem;
+}
+
+.banner {
+	width: 100%;
+	height: 100%;
+}
+
+.lead {
+	color: white;
+	text-align: center;
+	font-family: Lato;
+}
+
+.place {
+	color: white;
+	text-align: center;
+	font-family: Lato;
+	margin-top: 40px;
+	margin-bottom: 5%;
+}
+
+li {
+	font-family: Lato;
+}
+.display-4	{
+	margin: 10px;
+	text-align: center;
+	padding-top: 10%;
+	color: #f7f7f7;
+	font-family: Lato;
+}
+
+
+.card-deck {
+	align-items: center;
+	padding-left: 10rem;
+	padding-right: 10rem;
+}
+.card {
+	background-color: darkgrey;
+	min-width: 75%;
+	border: solid 2px #190d53;
+	align-items: center;
+	margin-left: 3rem;
+	margin-right: 3rem;
+	margin: 0 auto;
+}
+
+.clips {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	align-items: center;
+	height: auto;
+	width: 100%;
+	max-width: 1000px;
+}
+
+.counterplay {
+	max-width: auto 0;
+}
+
+.counterplayclips{
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin-top: 2rem;
+	align-items: right;
+	float: right;
+	margin-bottom: 2rem;
+	position: relative;
+	height: auto;
+	width: auto;
+	max-width: 120%;
+}
+
+.card-titles {
+	text-align: center;
+	margin-top: 0.5rem;
+	font-family: Lota;
+}
+
+.card-body {
+	text-indent: 1rem;
+	align-content: center;
+}
+
+.card-text {
+	color: black;
+	font-family: Lato;
+}
+
+.video {
+	margin-top: 0;
+}
+
+.counterplay {
+	margin-top: 1rem;
+}
+
+span {
+	float: left;
+	vertical-align: top;
+	display: inline;
+	position: absolute;
+	margin-top: 2rem;
+	margin-right: 2rem;
+}
+
+
+h4	{
+	color: black;
+	font-family: Lato;
+	
+}
+
+.btn-primary {
+	text-indent: -0.1rem;
+}
+
+/* Video BG CSS */
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    max-width:100%;
+    height:auto;
+  }
+
+  .fullscreen-bg__video {
+    filter: blur(8px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (min-aspect-ratio: 16/9) {
+    .fullscreen-bg__video {
+      height: 300%;
+      top: -100%;
+    }
+  }
+
+  @media (max-aspect-ratio: 16/9) {
+    .fullscreen-bg__video {
+      width: 300%;
+      left: -100%;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .fullscreen-bg__video {
+      width:auto;
+      height: 100%;
+    }
+  }
